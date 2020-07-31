@@ -18,6 +18,11 @@ Referência: https://www.alura.com.br/imersao-react
 
 *----------------------------------------------------------------------------------------------------------------------------------------------------------*
 
+# Resultado
+
+Projeto hospedado com Vercel em: https://imersao-react-ten-omega.vercel.app/
+
+# Instruções
 Criar projeto React:
 
 ```npx create-react-app my-app <nome-do-app>```
@@ -26,8 +31,17 @@ Para executar o app, na pasta do app, executar o servidor Node:
 
 ```npm start```
 
-Para instalar biblioteca styled-component, interromper o servidor e executar:
+Para instalar algumas bibliotecas e pacotes utilizados no projeto, interromper o servidor e executar:
 
-```npm install styled-component```
+styled-component >> `npm install styled-component`
 
+prop-types >> `npm install prop-types`
+
+react-router-dom >> `npm install react-router-dom`
+
+react-slick >> `npm install react-slick`
+
+# Créditos:
+
+Logotipo gerado com:  https://fontmeme.com/netflix-font/
 
