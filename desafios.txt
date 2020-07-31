@@ -3,3 +3,6 @@ AULA 01
     - Mudar as cores, logo e tudo mais que te der vontade;
     - Alterar os vídeos e categorias com conteúdos que você gosta;
     - Compartilhar o resultado que você fez nas redes sociais e quem sabe você aparece no conteúdo extra das aulas.
+
+AULA 02
+    - Colocar algo legal na página 404 (jogo da ImersaoGameDev ou Flappy Bird do Mario);
