@@ -1,0 +1,5 @@
+AULA 01
+    - Colocar a sua versão da AluraFlix, com o nome que você acha feliz;
+    - Mudar as cores, logo e tudo mais que te der vontade;
+    - Alterar os vídeos e categorias com conteúdos que você gosta;
+    - Compartilhar o resultado que você fez nas redes sociais e quem sabe você aparece no conteúdo extra das aulas.
