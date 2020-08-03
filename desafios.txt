@@ -6,3 +6,7 @@ AULA 01
 
 AULA 02
     - Colocar algo legal na página 404 (jogo da ImersaoGameDev ou Flappy Bird do Mario);
+
+AULA 03:
+    - Enviar a tag textarea para o component FormField
+    - Utilizar o mesmo efeito fadeIn nos campos do de formulário que a Netflix tem
