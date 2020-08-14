@@ -2,15 +2,15 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Frontend",
-            "descrição": "Playslit de frontend",
-            "cor": "#cbd1ff"
+            "categoryName": "Frontend",
+            "description": "Playslit de frontend",
+            "color": "#cbd1ff"
         },
         {
             "id": 1,
-            "nome": "Backend",
-            "descrição": "Playlist de backend",
-            "cor": "#cbd1ff"
+            "categoryName": "Backend",
+            "description": "Playlist de backend",
+            "color": "#cbd1ff"
         }
     ]
 }
