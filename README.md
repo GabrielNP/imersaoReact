@@ -41,6 +41,11 @@ react-router-dom >> `npm install react-router-dom`
 
 react-slick >> `npm install react-slick`
 
+eslit >> `npx eslint --init`
+
+json server >> `npm install json-server `
+
+
 # Créditos:
 
 Logotipo gerado com:  https://fontmeme.com/netflix-font/
