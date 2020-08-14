@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+
 import { Link } from 'react-router-dom'
+
+import Button from '../../../components/Button'
 import PageDefault from '../../../components/PageDefault'
 import FormField from '../../../components/FormField'
 
@@ -27,7 +30,16 @@ function CadastroCategoria() {
     )
   }
 
-  
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categorias'
+    fetch(URL)
+      .then(async (response) => {
+        const result = await response.json()
+        setCategories([
+          ...result,
+        ])
+      })
+  }, [])
 
   return (
     <PageDefault>
@@ -45,14 +57,14 @@ function CadastroCategoria() {
       }}>
 
         <FormField 
-          label="Nome da Categoria"
+          label='Nome da Categoria'
           value={values.categoryName}
           name='categoryName'
           onChange={handleChange}
         />
 
         <FormField 
-          label="Descrição"
+          label='Descrição'
           type='textarea'
           value={values.description}
           name='description'
@@ -60,30 +72,34 @@ function CadastroCategoria() {
         />
 
         <FormField 
-          label="Cor"
+          label='Cor'
           type='color'
           value={values.color}
           name='color'
           onChange={handleChange}
         />
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
+      {categories.length === 0 && (
+      <div>
+        Loading...
+      </div>)}
+
       <ul>
-        {categories.map((category, index) => {
-          return (
-            <li key={`${category}${index}`}>
+        {categories.map((category, index) => (
+          console.log(category),
+            <li key={`${category.categoryName}${index}`}>
               {category.categoryName}
             </li>
-          )
-        })}
+        ))}
       </ul>
 
 
-      <Link to="/">
+      <Link to='/'>
         Ir para home
       </Link>
     </PageDefault>
