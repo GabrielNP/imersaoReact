@@ -1,7 +1,6 @@
 import config from '../config/index'
 
 const URL_CATEGORIES = `${config.URL_BACKEND}/categories`
-console.log(URL_CATEGORIES)
 
 function getAll() {
     return fetch(`${URL_CATEGORIES}`)
